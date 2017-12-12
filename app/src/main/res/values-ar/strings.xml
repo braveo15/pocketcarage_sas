@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">pocketcarage</string>
+    <string name="lb">دخول</string>
+    <string name="password_recovery">هل نسيت كلمة المرور؟</string>
+    <string name="createAccount">انشاء حساب جديد</string>
+    <string name="hint_phone_number">رقم الهاتف</string>
+    <string name="hint_password">كلمة السر</string>
+    <string name="R_title">انشاء حساب</string>
+    <string name="lable_name_R">الاسم</string>
+    <string name="label_email_R">البريد الالكتروني</string>
+    <string name="label_password_R">كلمة السر</string>
+    <string name="label_confirmpassword_R">تاكيد كلمة السر</string>
+    <string name="label_address_R">العنوان</string>
+    <string name="label_phone_R">رقم الهاتف</string>
+    <string name="hint_confirm">تاكيد كلمة السر</string>
+    <string name="create_account">انشاء الحساب</string>
+</resources>

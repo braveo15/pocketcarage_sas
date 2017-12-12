@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "546674250538",
+    "firebase_url": "https://pocketcarage15.firebaseio.com",
+    "project_id": "pocketcarage15",
+    "storage_bucket": "pocketcarage15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546674250538:android:aaffa40e9084ef4c",
+        "android_client_info": {
+          "package_name": "pocketcarage.com.pocketcarage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546674250538-1vk8sgkl4an2og7fpfi0ra9su9g726vu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pocketcarage.com.pocketcarage",
+            "certificate_hash": "20b9505790720f557434c90771cb741bbe949bba"
+          }
+        },
+        {
+          "client_id": "546674250538-1netttu4d28mt7svlis2bmjbajif406r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIET7CPOZMmCF5d6JQKIl8BuGS81NoNJQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546674250538-1netttu4d28mt7svlis2bmjbajif406r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

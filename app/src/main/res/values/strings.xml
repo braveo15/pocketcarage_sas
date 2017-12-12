@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">pocketcarage</string>
+    <string name="language">عربي</string>
+    <string name="lb">Login</string>
+    <string name="password_recovery">Forget Passwrod?</string>
+    <string name="createAccount">Creat New Account</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_password">Password</string>
+    <string name="R_title">Create Account</string>
+    <string name="lable_name_R">Name :</string>
+    <string name="label_email_R">Email</string>
+    <string name="label_password_R">Password</string>
+    <string name="label_confirmpassword_R">Confirm Password</string>
+    <string name="label_address_R">Address</string>
+    <string name="label_phone_R">Phone Number</string>
+    <string name="hint_confirm">repeat password</string>
+    <string name="create_account">create account</string>
+    <string name="welcomeMessage">welcome:</string>
+    <string name="tab1">Car Service</string>
+    <string name="tab2">Car Wash</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">gZgoUsyHIaZU4W3YG6OqUcvo5eTAuEkED01Taw3Q</string>
+    <string name="back4app_client_key">TzbDWUIzTENKtpy743758xpLuDOTS0BvGEjblC5S</string>
+    <string name="buttonmy">click</string>
+    <string name="title_activity_services">Services</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="profile">Profile</string>
+    <string name="home_logged">Home</string>
+
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="logout_bar_item">Logout</string>
+    <string name="title_services">Services</string>
+    <string name="reset_password_email">Enter Your Email</string>
+    <string name="reset_button">Reset</string>
+</resources>
