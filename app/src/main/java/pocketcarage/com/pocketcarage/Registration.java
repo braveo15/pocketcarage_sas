@@ -129,6 +129,7 @@ public class Registration extends AppCompatActivity {
                 @Override
                 public void done(ParseUser user, ParseException e) {
                     startActivity(new Intent(Registration.this,Services.class));
+                    finish();
 
                 }
             });
