@@ -12,8 +12,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -40,6 +40,7 @@ public class Registration extends AppCompatActivity {
     private EditText u_address;
     private EditText u_phone;
     private Button u_create;
+    private ImageView back_button;
     final String APP_ID = "gZgoUsyHIaZU4W3YG6OqUcvo5eTAuEkED01Taw3Q";
     final String CLIENT_KEY = "TzbDWUIzTENKtpy743758xpLuDOTS0BvGEjblC5S";
     @Override
@@ -49,6 +50,7 @@ public class Registration extends AppCompatActivity {
         //start connection to parse database
         Parse.initialize(this,APP_ID,CLIENT_KEY);
         // connect layout elements
+        back_button=(ImageView) findViewById(R.id.backButton);
         u_create= (Button)findViewById(R.id.createtheaccount);
        u_name = (EditText)findViewById(R.id.name_input);
         u_email = (EditText)findViewById(R.id.email_input);
@@ -98,6 +100,12 @@ public class Registration extends AppCompatActivity {
             }
         });
 
+    back_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 
     }
 

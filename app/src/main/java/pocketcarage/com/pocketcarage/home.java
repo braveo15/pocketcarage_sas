@@ -49,10 +49,12 @@ public class home extends AppCompatActivity implements View.OnClickListener {
         user_name = (EditText)findViewById(R.id.username_input_log);
         user_password = (EditText)findViewById(R.id.Password);
         resetPassword=(TextView)findViewById(R.id.passwordrecovery);
+        
         resetPassword.setOnClickListener(this);
         ParseUser currentUser = ParseUser.getCurrentUser();
         if (currentUser != null) {
             startActivity(new Intent(home.this,Services.class));
+
         } else {
             Toast.makeText(getApplicationContext(),"Login or Sign Up",Toast.LENGTH_LONG).show();
 
@@ -99,6 +101,7 @@ public class home extends AppCompatActivity implements View.OnClickListener {
                         public void done(ParseUser user, ParseException e) {
                             if (e == null) {
                                 startActivity(new Intent(home.this, Services.class));
+                                finish();
                             } else {
                                 Toast.makeText(getApplicationContext(), e.getMessage().toString(), Toast.LENGTH_LONG).show();
                             }
