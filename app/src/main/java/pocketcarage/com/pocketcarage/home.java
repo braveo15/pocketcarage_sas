@@ -33,6 +33,7 @@ public class home extends AppCompatActivity implements View.OnClickListener {
     private EditText user_name;
     private EditText user_password;
     private TextView resetPassword;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -40,11 +41,12 @@ public class home extends AppCompatActivity implements View.OnClickListener {
         setContentView(R.layout.activity_home);
         Parse.initialize(this);
         ParseInstallation.getCurrentInstallation().saveInBackground();
-        ParseUser.getCurrentUser().logOut();
+
         ParseObject test = new ParseObject("testing");
         logIN = (Button)findViewById(R.id.logn_button);
         createAccount = (TextView)findViewById(R.id.to_registration_link);
         logIN.setOnClickListener(this);
+        resetPassword = (TextView) findViewById(R.id.passwordrecovery);
         createAccount.setOnClickListener(this);
         user_name = (EditText)findViewById(R.id.username_input_log);
         user_password = (EditText)findViewById(R.id.Password);
