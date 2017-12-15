@@ -56,6 +56,7 @@ public class home extends AppCompatActivity implements View.OnClickListener {
         ParseUser currentUser = ParseUser.getCurrentUser();
         if (currentUser != null) {
             startActivity(new Intent(home.this,Services.class));
+            finish();
 
         } else {
             Toast.makeText(getApplicationContext(),"Login or Sign Up",Toast.LENGTH_LONG).show();
@@ -102,8 +103,14 @@ public class home extends AppCompatActivity implements View.OnClickListener {
                         @Override
                         public void done(ParseUser user, ParseException e) {
                             if (e == null) {
-                                startActivity(new Intent(home.this, Services.class));
+                                Intent services_page = new Intent(home.this,Services.class);
+                                services_page.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                                services_page.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+
+                                startActivity(services_page);
                                 finish();
+
+
                             } else {
                                 Toast.makeText(getApplicationContext(), e.getMessage().toString(), Toast.LENGTH_LONG).show();
                             }
