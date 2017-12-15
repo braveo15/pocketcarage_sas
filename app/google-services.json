@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "546674250538-3il15kevi5cnlbd8npqkb1rp1nid9utn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pocketcarage.com.pocketcarage",
+            "certificate_hash": "37152c8ca1ddc7aaea2fdeb2204dbfdf1b2ba003"
+          }
+        },
+        {
           "client_id": "546674250538-1vk8sgkl4an2og7fpfi0ra9su9g726vu.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

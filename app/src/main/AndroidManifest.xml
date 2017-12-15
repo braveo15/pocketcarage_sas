@@ -8,9 +8,8 @@
     <!-- permission for push notification -->
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
-    <permission
-        android:name="com.directions.sample.permission.C2D_MESSAGE"
-        android:protectionLevel="signature" />
+
+
 
     <uses-permission android:name="com.directions.sample.permission.C2D_MESSAGE" />
 
@@ -58,6 +57,7 @@
             android:theme="@style/AppTheme"
             android:screenOrientation="portrait"
             ></activity>
+
     </application>
 
 </manifest>
